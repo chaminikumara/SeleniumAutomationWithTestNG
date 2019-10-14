@@ -24,8 +24,6 @@ public class LogonPage {
 	public LogonPage(WebDriver driver) {
 		this.driver = driver;
 
-		driver.get(Utils.getValueFromConf("commbank.url"));
-
 		PageFactory.initElements(driver, this);
 
 		@SuppressWarnings({ "deprecation", "unused" })
