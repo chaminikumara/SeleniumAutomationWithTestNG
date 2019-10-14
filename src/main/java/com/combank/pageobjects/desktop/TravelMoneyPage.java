@@ -31,9 +31,9 @@ public class TravelMoneyPage {
 	/**
 	 * Navigate to log on.
 	 */
-	public LogonPage navigateLogOn() {
+	public void navigateLogOn() {
 		loginBtn.click();
-		return new LogonPage(driver);
+		//return new LogonPage(driver);
 	}
 	
 	/**
