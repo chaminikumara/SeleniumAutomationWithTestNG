@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests" thread-count="2" >
 
-    <test name="searchTest-chrome">
+    <test name="travelMoneyTest-chrome">
         <parameter name="browser" value="chrome"/>
         <parameter name="travelMoneySubTopic" value="A mix of cash and cards"/>
         <parameter name="clientNo" value="12345678"/>
@@ -12,7 +12,7 @@
         </classes>
     </test>
 
-<!--     <test name="searchTest-firefox">
+<!--     <test name="travelMoneyTest-firefox">
         <parameter name="browser" value="firefox"/>
         <parameter name="travelMoneySubTopic" value="A mix of cash and cards"/>
         <parameter name="clientNo" value="2853796"/>
